@@ -1,6 +1,11 @@
 /*!
+<<<<<<< HEAD
  * @copyright Copyright &copy; Kartik Visweswaran, Krajee.com, 2015 - 2016
  * @version 1.6.7
+=======
+ * @copyright Copyright &copy; Kartik Visweswaran, Krajee.com, 2015 - 2017
+ * @version 1.6.8
+>>>>>>> d75e44406856fc9cabc06d2b9efb98b60323c2c4
  *
  * Custom styling for DateRangePicker
  * 
@@ -9,6 +14,11 @@
  * For more JQuery plugins visit http://plugins.krajee.com
  * For more Yii related demos visit http://demos.krajee.com
  */
+<<<<<<< HEAD
 .drp-container .glyphicon, .drp-container .caret {
     cursor:pointer;
+=======
+.drp-container .kv-drp-dropdown {
+    cursor: pointer;
+>>>>>>> d75e44406856fc9cabc06d2b9efb98b60323c2c4
 }

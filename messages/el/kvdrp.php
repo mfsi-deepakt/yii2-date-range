@@ -17,6 +17,7 @@
  * NOTE: this file must be saved in UTF-8 encoding.
  */
 return [
+<<<<<<< HEAD
     'Apply' => '',
     'Cancel' => '',
     'Custom Range' => '',
@@ -29,4 +30,18 @@ return [
     'Today' => '',
     'W' => '',
     'Yesterday' => '',
+=======
+    'Apply' => 'Εφαρμογή',
+    'Cancel' => 'Ακύρωση',
+    'Custom Range' => 'Ευρος από χρήστη',
+    'From' => 'Από',
+    'Last Month' => 'Τελευταίος Μήνας',
+    'Last {n} Days' => 'Τελευταίες {n} Ημέρες',
+    'Select Date Range' => 'Επιλέξτε Εύρος Ημερομηνιών',
+    'This Month' => 'Αυτός Ο Μήνας',
+    'To' => 'Εώς',
+    'Today' => 'Σήμερα',
+    'W' => 'Εβδομάδα',
+    'Yesterday' => 'Εχθές',
+>>>>>>> d75e44406856fc9cabc06d2b9efb98b60323c2c4
 ];

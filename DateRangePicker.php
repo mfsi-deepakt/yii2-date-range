@@ -28,6 +28,7 @@ class DateRangePicker extends InputWidget
      * @var string the javascript callback to be passed to the plugin constructor. Note: a default value is set for
      *     this property when you set `hideInput` to false, OR you set `useWithAddon` to `true` or `autoUpdateOnInit`
      *     to `false`. If you set a value here it will override any auto-generated callbacks.
+
      */
     public $callback = null;
 
@@ -177,7 +178,7 @@ HTML;
         if ($this->convertFormat && isset($this->pluginOptions['locale']['format'])) {
             $this->pluginOptions['locale']['format'] = static::convertDateFormat($this->pluginOptions['locale']['format']);
         }
-        
+
         $locale = ArrayHelper::getValue($this->pluginOptions, 'locale', []);
         $this->_format = ArrayHelper::getValue($locale, 'format', 'YYYY-MM-DD');
         $this->_separator = ArrayHelper::getValue($locale, 'separator', ' - ');
@@ -380,6 +381,7 @@ HTML;
             }
             $rangeJs = $this->getRangeJs('start') . $this->getRangeJs('end');
             $change = $rangeJs . "{$input}.val(val).trigger('change');";
+
             if ($this->hideInput) {
                 $script = "var val={$val};{$id}.find('.range-value').html(val);{$change}";
             } elseif ($this->useWithAddon) {
