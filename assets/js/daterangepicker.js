@@ -34,7 +34,6 @@
 
 }(this || {}, function(root, daterangepicker, moment, $) { // 'this' doesn't exist on a server
 
-=======
 * @version: 2.1.25
 * @author: Dan Grossman http://www.dangrossman.info/
 * @copyright: Copyright (c) 2012-2017 Dan Grossman. All rights reserved.
@@ -63,7 +62,6 @@
         root.daterangepicker = factory(root.moment, root.jQuery);
     }
 }(this, function(moment, $) {
->>>>>>> d75e44406856fc9cabc06d2b9efb98b60323c2c4
     var DateRangePicker = function(element, options, cb) {
 
         //default settings for options
